@@ -1,0 +1,4 @@
+CASCADE_PATH = os.path.join(_BASE_DIR, "assets", "haarcascade_frontalface_default.xml")
+...
+if not os.path.exists(CASCADE_PATH):
+    raise FileNotFoundError(...)
